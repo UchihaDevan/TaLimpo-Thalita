@@ -3,11 +3,11 @@ import { Produto } from "../../types/Produto";
 import { useCarrinho } from "../../context/CarrinhoContext";
 
 const produtosMock: Produto[] = [
-  { nome: "Alvejante Brilux 5L", descricao: "Cheiro de lavanda", imagem: "src/assets/ImgProdutos/alvejante.png" },
-  { nome: "Alvejante Brilux 1L", descricao: "Remove gordura facilmente", imagem: "src/assets/ImgProdutos/alvejante1l.png" },
-  { nome: "Aromatizante TaLimpo", descricao: "Para roupas mais limpas", imagem: "src/assets/ImgProdutos/aromatizante.png" },
-  { nome: "Oleo de Peroba", descricao: "Para roupas mais limpas", imagem: "src/assets/ImgProdutos/oleo_peroba.png" },
-  { nome: "Água Sanitária", descricao: "Para roupas mais limpas", imagem: "src/assets/ImgProdutos/agua_sanitaria_brilux.png" },
+  { nome: "Alvejante Brilux 5L", descricao: "Cheiro de lavanda", imagem: "https://github.com/UchihaDevan/TaLimpo-Thalita/blob/main/src/assets/ImgProdutos/alvejante.png?raw=true" },
+  { nome: "Alvejante Brilux 1L", descricao: "Remove gordura facilmente", imagem: "https://github.com/UchihaDevan/TaLimpo-Thalita/blob/main/src/assets/ImgProdutos/alvejante1l.png?raw=true" },
+  { nome: "Aromatizante TaLimpo", descricao: "Para roupas mais limpas", imagem: "https://loja.talimpo.com.br/sitecontent/ecommercex/produto/images/g/08072020015757_0010118_AIR_IGAUTEMI_5_LTS.png" },
+  { nome: "Oleo de Peroba", descricao: "Para roupas mais limpas", imagem: "https://loja.talimpo.com.br/sitecontent/ecommercex/produto/images/g/26072020173145_0OLEO_DE_PEROBA_3.png" },
+  { nome: "Água Sanitária", descricao: "Para roupas mais limpas", imagem: "https://github.com/UchihaDevan/TaLimpo-Thalita/blob/main/src/assets/ImgProdutos/agua_sanitaria_brilux.png?raw=true" },
 ];
 
 const ProdutoList = () => {
