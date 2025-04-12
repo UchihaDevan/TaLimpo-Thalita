@@ -3,11 +3,11 @@ import { Produto } from "../../types/Produto";
 import { useCarrinho } from "../../context/CarrinhoContext";
 
 const produtosMock: Produto[] = [
-  { nome: "Alvejante Brilux 5L", descricao: "Cheiro de lavanda", imagem: "/src/assets/ImgProdutos/alvejante.png" },
-  { nome: "Alvejante Brilux 1L", descricao: "Remove gordura facilmente", imagem: "/src/assets/ImgProdutos/alvejante1l.png" },
-  { nome: "Aromatizante TaLimpo", descricao: "Para roupas mais limpas", imagem: "/src/assets/ImgProdutos/aromatizante.png" },
-  { nome: "Oleo de Peroba", descricao: "Para roupas mais limpas", imagem: "/src/assets/ImgProdutos/oleo_peroba.png" },
-  { nome: "Água Sanitária", descricao: "Para roupas mais limpas", imagem: "/src/assets/ImgProdutos/agua_sanitaria_brilux.png" },
+  { nome: "Alvejante Brilux 5L", descricao: "Cheiro de lavanda", imagem: "src/assets/ImgProdutos/alvejante.png" },
+  { nome: "Alvejante Brilux 1L", descricao: "Remove gordura facilmente", imagem: "src/assets/ImgProdutos/alvejante1l.png" },
+  { nome: "Aromatizante TaLimpo", descricao: "Para roupas mais limpas", imagem: "src/assets/ImgProdutos/aromatizante.png" },
+  { nome: "Oleo de Peroba", descricao: "Para roupas mais limpas", imagem: "src/assets/ImgProdutos/oleo_peroba.png" },
+  { nome: "Água Sanitária", descricao: "Para roupas mais limpas", imagem: "src/assets/ImgProdutos/agua_sanitaria_brilux.png" },
 ];
 
 const ProdutoList = () => {
